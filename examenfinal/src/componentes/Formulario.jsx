@@ -14,7 +14,7 @@ const Formulario = () => {
 
     const realizarEnvio = (e) => {
         e.preventDefault();
-        /* const newErrors = {};
+        const newErrors = {};
         if(!nombre) newErrors.nombre = 'El nombre es obligatorio';
         if(!apellidos) newErrors.apellidos = 'Los apellidos son obligatorio';
         if(!celular) newErrors.celular = 'El celular es obligatorio';
@@ -23,7 +23,7 @@ const Formulario = () => {
         if(!regexTexto.test(apellidos)) {alert('Los apellidos no son válidos')};
         if(!regexNumero.test(celular)) {alert('Celular no válido')};
         if(!regexTexto.test(lugar)) {alert('El lugar ingresado no es válido')};
-        setErrors(newErrors); */
+        setErrors(newErrors);
         if (nombre==='' || apellidos==='' || celular==='' || lugar==='') {
             alert('Los cajas de texto están vacias');
         }
