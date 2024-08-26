@@ -12,10 +12,10 @@ function DarkVariantExample() {
         <img
           className="d-block w-100"
           src= {imagen1}
-          alt="Alfombra 1"
+          alt="1"
         />
         <Carousel.Caption>
-          <h5>Alfombra l</h5>
+          <h5>1</h5>
         
         </Carousel.Caption>
       </Carousel.Item>
@@ -23,20 +23,20 @@ function DarkVariantExample() {
         <img
           className="d-block w-100"
           src= {imagen2}
-          alt= "Alfombra 2"
+          alt= "2"
         />
         <Carousel.Caption>
-          <h5>Alfombra 2</h5>
+          <h5>2</h5>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src= {imagen3}
-          alt= "Alfombra 3"
+          alt= "3"
           />
           <Carousel.Caption>
-            <h5>Alfombra 3</h5>
+            <h5>3</h5>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
