@@ -62,7 +62,7 @@ const Formulario = () => {
                         <Form.Control type="text" value={email} onChange={cambioEmail} placeholder="Email"></Form.Control>
                         <Form.Control type="text" value={contraseña} onChange={cambioContraseña} placeholder="Password"></Form.Control>
                     </Form.Group>
-                    <Button variant="primary" type="submit" >Submit</Button>
+                    <Button style={{background: 'green' }} variant="primary" type="submit" >Submit</Button>
                 </Form>
             </>
         );

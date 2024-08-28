@@ -74,7 +74,7 @@
   float: right;
 
 }
-/* Efecto al pasar el ratón */
+/* Efecto al pasar el ratón*/
 .Redes1:hover {
   opacity: 0.5; /* Reduce la opacidad al 50% */
   transform: rotate(360deg); /* Rote el texto 180 grados */
@@ -83,7 +83,7 @@
 .flex-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Crea dos columnas iguales */
-  gap: 10px; /* Opcional: espacio entre los componentes */
+  gap: 10px; /*Opcional: espacio entre los componentes*/
 }
 
 .flex-container2 {
