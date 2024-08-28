@@ -40,3 +40,54 @@
 .read-the-docs {
   color: #888;
 }
+
+.Carro {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Ancho máximo del carrusel */
+  margin: auto;
+  overflow: hidden; /* Oculta las imágenes que se salen del contenedor */
+}
+
+  .Formulario {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Ancho menor al carrusel */
+    margin: auto;
+    overflow: hidden; /* Oculta las imágenes que se salen del contenedor */
+  }
+ 
+.Redes {
+  display: flex; /* Utiliza Flexbox para alinear elementos */
+  align-items: center; /* Alinea verticalmente los elementos si es necesario */
+  margin-right: 100px; /* Espacio entre las etiquetas si es necesario */
+}
+
+/* Efecto al pasar el ratón */
+.Cabecera:hover {
+  opacity: 0.3; /* Reduce la opacidad al 50% */
+  transform: rotate(360deg); /* Rote el texto 180 grados */
+}
+
+.Redes1 {
+  transform: scale(0.3);
+  float: right;
+
+}
+/* Efecto al pasar el ratón */
+.Redes1:hover {
+  opacity: 0.5; /* Reduce la opacidad al 50% */
+  transform: rotate(360deg); /* Rote el texto 180 grados */
+}
+
+.flex-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Crea dos columnas iguales */
+  gap: 10px; /* Opcional: espacio entre los componentes */
+}
+
+.flex-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Crea dos columnas iguales */
+  gap: 10px; /* Opcional: espacio entre los componentes */
+}

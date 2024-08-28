@@ -11,32 +11,30 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App(){
   return(
 <>
+<div className="flex-container">
 <div className="Cabecera">
 <Cabecera/>
 </div>
-
 <div className="FechaHora">
 <FechaHora/>
 </div>
+</div>
+<hr style={{border: '1.5px solid darkgreen' }}/>
 
 <div className="Carro">
 <Carrusel/>
 </div>
 
-<div className="container container-fluid">
+<div className="Formulario">
         <br />
         <br />
         <Formulario/>
       </div>
-<br/>
-<br/>
-<div className="Redes">
+
+<div className="Redes1">
 <Pie/>
 </div>
-
 </>
-
   );
 }
-
 export default App;

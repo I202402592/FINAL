@@ -15,7 +15,7 @@ const CurrentDateTime = () => {
 
   // Formatear la fecha y hora
   const formatDateTime = (date) => {
-    return `Fecha: ${date.toLocaleDateString()} Hora:${date.toLocaleTimeString()}`;
+    return `Fecha: ${date.toLocaleDateString()} Hora: ${date.toLocaleTimeString()}`;
   };
 
   return (

@@ -8,7 +8,6 @@ function Cabecera () {
         <div>
     <img alt = "Cabecera" src ={LogoTraveling} className ="imgcab1"/>
     </div>
-    <hr />
     </>
     );
     }
